@@ -74,3 +74,28 @@ body {
 #box3 h2 {
     text-align: right;
 }
+
+#box4 {
+    display: flex;
+}
+
+.content4 {
+    display: flex;
+}
+
+.content4 .sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-button {
+    display: flex;
+    width: 200px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-button button {
+    width: 100px;
+    height: 20px;
+}
