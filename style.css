@@ -1,5 +1,5 @@
 body {
-    width: 800px;
+    width: 1000px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -57,4 +57,20 @@ body {
 .content2 div img {
     width: 100px;
     height: 100px;
+}
+
+#box3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#box3 h1, h2 {
+    width: 550px;
+}
+
+#box3 h2 {
+    text-align: right;
 }
