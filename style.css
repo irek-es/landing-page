@@ -111,10 +111,18 @@ body {
     width: 100%;
     align-items: center;
     padding: 50px 0;
+    background-color: #e5e7eb;
 }
 
 #box3 h1, h2 {
     width: 550px;
+}
+
+#box3 h1 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
 }
 
 #box3 h2 {
