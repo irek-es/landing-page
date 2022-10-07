@@ -75,18 +75,34 @@ body {
     flex-direction: column;
 }
 
+#box2 h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
 .content2 {
     display: flex;
+    justify-content: space-between;
 }
 
 .content2 div {
-    width: 100px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
 }
 
 .content2 div img {
+    width: 120px;
+    height: 120px;
+}
+
+.content2 div p {
+    font-size: 18px;
     width: 100px;
-    height: 100px;
+    text-align: center;
 }
 
 #box3 {
