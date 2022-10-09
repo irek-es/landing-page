@@ -131,15 +131,22 @@ body {
 
 #box4 {
     display: flex;
+    height: 400px;
+    align-items: center;
 }
 
 .content4 {
     display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 300px;
 }
 
 .content4 .sign-up {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
 }
 
 .sign-up-button {
@@ -151,5 +158,6 @@ body {
 
 .sign-up-button button {
     width: 100px;
-    height: 20px;
+    color: #f9faf8;
+    background-color: #3882f6;
 }
