@@ -132,7 +132,7 @@ body {
 }
 
 #box3 h1 {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
@@ -170,7 +170,7 @@ body {
 }
 
 .sign-up-button button {
-    width: 120px;
+    width: auto;
     height: 45px;
     color: #f9faf8;
     background-color: #3882f6;
